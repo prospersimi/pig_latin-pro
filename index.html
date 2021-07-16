@@ -1,34 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pig Latin</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <script
+      src="https://kit.fontawesome.com/eb195998a5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pig Latin</title>
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <script src="js/jquery-3.6.0.js"></script>
-  <script src="js/scripts.js"></script>
-  <script src="https://kit.fontawesome.com/eb195998a5.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <div class="container">
-    <i class="fas fa-bars" id="bar"></i>
-    <h2>PIG LATIN.</h2>
-    <form id="word-counter">
-      <div class="form-group">
-        <p>Input a text passage to see how it will display:</p>
-        <textarea id="text-passage" name="text-passage" class="form-control"></textarea>
-        <p>Text would be displayed in the text box below:</p>
-        <input type="text" id="word" name="word" class="form-control">
-        <br>
-        <button type="submit" class="btn btn-success">Submit text.</button>
-      </div>
-    </form>
-  </div>
-  <p class="copyright">All rights reserved copyright &copy; @ logic prime enterprise.</p>
-</body>
-
+  <body>
+    <br />
+    <div class="container">
+      <br />
+      <i class="fas fa-bars" id="bar"></i>
+      <br />
+      <h2>PIG LATIN.</h2>
+      <br />
+      <p class="describe">
+        pig Latin is a secret language formed from English by transferring the
+        initial consonant or consonant cluster of each word to the end of the
+        word and adding a vocalic syllable (usually /eɪ/): so pig Latin would be
+        igpay atinlay.
+      </p>
+      <form id="word-counter">
+        <div class="form-group">
+          <p>Input a text passage to see how it will display:</p>
+          <textarea
+            id="text-passage"
+            name="text-passage"
+            class="form-control"
+          ></textarea>
+          <br />
+          <p>Text would be displayed in the text box below:</p>
+          <textarea
+          id="word"
+          name="word"
+          class="form-control"
+        ></textarea>
+          <br />
+          <button type="submit" class="btn btn-success">Submit text.</button>
+        </div>
+      </form>
+      <br />
+    </div>
+    <br />
+    <p class="copyright">
+      All rights reserved copyright &copy; @ logic prime enterprise.
+    </p>
+  </body>
 </html>
